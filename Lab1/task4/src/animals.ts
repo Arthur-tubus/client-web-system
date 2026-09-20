@@ -20,11 +20,11 @@ class Cat implements Animal {
     }
     
     makeSound(): void {
-        console.log(`${this.name} каже: Мяу!`);
+        console.log(`${this.name} каже: Мяу`);
     }
 }
 
-const myCat = new Cat("Барсик", 3);
+const myCat = new Cat("Рижик", 3);
 myCat.makeSound();
 myCat.run();
 
@@ -40,11 +40,11 @@ class Bird implements Animal {
     }
     
     makeSound(): void {
-        console.log(`${this.name} співає: Чирик!`);
+        console.log(`${this.name} співає: Чирик`);
     }
 }
 
-const myBird = new Bird("Воробей", 25);
+const myBird = new Bird("Горобець", 25);
 myBird.makeSound();
 myBird.fly();
 
@@ -57,7 +57,7 @@ class Fish implements Animal{
     }
 
     makeSound(): void {
-        console.log(`${this.name} не видає гучних звуків (буль-буль).`);
+        console.log(`${this.name} не видає гучних звуків (буль-буль)`);
     }
 }
 
